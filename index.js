@@ -1,3 +1,3 @@
-const generate = require('babel-generator')
+const {default: generate} = require('babel-generator')
 
 module.exports = (x) => generate(x)
