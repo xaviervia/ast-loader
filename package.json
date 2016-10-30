@@ -10,6 +10,11 @@
   "author": "Fernando Vía Canel <fernando.via@gmail.com>",
   "license": "Unlicense",
   "dependencies": {
-    "babel-generator": "^6.17.0"
+    "babel-generator": "^6.17.0",
+    "babylon": "^6.13.1",
+    "remove": "^0.1.5"
+  },
+  "devDependencies": {
+    "babylon": "^6.13.1"
   }
 }

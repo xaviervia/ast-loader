@@ -26,7 +26,7 @@
         "column": 24
       }
     },
-    "sourceType": "module",
+    "sourceType": "script",
     "body": [
       {
         "type": "ExpressionStatement",
@@ -82,7 +82,8 @@
                 "end": {
                   "line": 1,
                   "column": 7
-                }
+                },
+                "identifierName": "console"
               },
               "name": "console"
             },
@@ -98,7 +99,8 @@
                 "end": {
                   "line": 1,
                   "column": 11
-                }
+                },
+                "identifierName": "log"
               },
               "name": "log"
             },
@@ -106,7 +108,7 @@
           },
           "arguments": [
             {
-              "type": "Literal",
+              "type": "StringLiteral",
               "start": 12,
               "end": 23,
               "loc": {
@@ -119,14 +121,17 @@
                   "column": 23
                 }
               },
-              "value": "hello ast",
-              "rawValue": "hello ast",
-              "raw": "'hello ast'"
+              "extra": {
+                "rawValue": "hello ast",
+                "raw": "\"hello ast\""
+              },
+              "value": "hello ast"
             }
           ]
         }
       }
-    ]
+    ],
+    "directives": []
   },
   "comments": [],
   "tokens": [
@@ -140,8 +145,7 @@
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null,
-        "updateContext": null
+        "binop": null
       },
       "value": "console",
       "start": 0,
@@ -193,8 +197,7 @@
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null,
-        "updateContext": null
+        "binop": null
       },
       "value": "log",
       "start": 8,

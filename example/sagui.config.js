@@ -6,11 +6,13 @@ module.exports = {
   pages: ['index'],
 
   webpack: {
-    loaders: [
-      {
-        test: /\.ast$/,
-        loader: 'ast'
-      }
-    ]
+    module: {
+      loaders: [
+        {
+          test: /\.ast$/,
+          loader: 'ast'
+        }
+      ]
+    }
   }
 }

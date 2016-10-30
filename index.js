@@ -1,3 +1,3 @@
 const {default: generate} = require('babel-generator')
 
-module.exports = (x) => generate(x)
+module.exports = (x) => generate(JSON.parse(x)).code
